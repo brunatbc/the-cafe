@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #F0EAD2;
+}
+
+#menu{
+    list-style: none;
+    background-color: #A98467;
+    padding: 30px;
+    text-align: right;
+
+}
+
+#menu>li{
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+#menu>li>a{
+    text-align: right;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+#menu>li>a:hover{
+    color: #8C3C2A ;
+}
+
+#logo{
+    float: left;
+    
+}
+
+#container{
+    box-shadow: inset 2px 2px 20px 0px rgba(0, 0, 0, 0.658);;
+    width: 99vw;
+    height: 100vh;
+    background: url(imagens/cafe.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quem-somos{
+    text-align:right;
+    padding: 50px;
+    font-size: 3vh;
+    background-color: #D9D2D5; 
+  
+}
+
+.icon{
+    float: left;
+    margin-left: 80px;
+}
