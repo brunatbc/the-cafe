@@ -8,38 +8,45 @@
     font-family: 'Lato', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #F0EAD2;
 }
 
-#menu{
-    list-style: none;
-    background-color: #A98467;
-    padding: 30px;
-    text-align: right;
 
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    position: fixed;
+    background-color:#A98467;
+    height: 4rem;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#menu{
+    text-align: right;
 }
 
 #menu>li{
-    display: inline;
     margin-right: 10px;
     
 }
 
 #menu>li>a{
     text-align: right;
-    display: inline-block;
     text-decoration: none;
     color: black;
 }
 
 #menu>li>a:hover{
-    color: #8C3C2A ;
-}
-
-#logo{
-    float: left;
-    
+    color: #8C3C2A;
 }
 
 #container{
@@ -51,9 +58,13 @@ body{
     background-attachment: fixed;
 }
 
-.quem-somos{
+section{
+    min-height: 100vh;
+}
+
+#quem-somos{
     text-align:right;
-    padding: 50px;
+    padding: 90px;
     font-size: 3vh;
     background-color: #D9D2D5; 
   
