@@ -70,6 +70,14 @@ section{
   
 }
 
+#encontrar{
+    background-color: #8C6456;
+    padding: 90px;
+    font-size: 3vh;
+    color: white;
+    text-align: center;
+}
+
 .icon{
     float: left;
     margin-left: 80px;
