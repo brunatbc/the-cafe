@@ -78,7 +78,34 @@ section{
     text-align: center;
 }
 
+#cardapio{
+    padding: 90px;
+    text-align: center;
+    font-size: 3vh;
+    background-color:#F0EAD2;
+}
+
+#horario{
+    background-color: #8C3C2A;
+    font-size: 3vh;
+    color: white;
+    text-align: center;
+    padding: 90px;
+}
+
 .icon{
     float: left;
     margin-left: 80px;
+}
+
+ul#cardapio{
+    columns: 2;
+    padding: 40px;
+    margin-left: 120px;
+    list-style-type: '\2615';
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
 }
