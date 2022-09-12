@@ -53,7 +53,7 @@ nav ul{
     box-shadow: inset 2px 2px 20px 0px rgba(0, 0, 0, 0.658);;
     width: 99vw;
     height: 100vh;
-    background: url(imagens/cafe.png);
+    /*background: url(imagens/cafe.png);*/
     background-size: cover;
     background-attachment: fixed;
 }
@@ -108,4 +108,13 @@ ul#cardapio{
 footer{
     padding: 20px;
     text-align: center;
+}
+
+@media screen and (min-width:600px) and (max-width:768px) {
+
+    body{
+        background-color: #D9D2D5;
+        background: none;
+    }
+    
 }
