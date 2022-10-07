@@ -17,7 +17,7 @@ body{
 }
 
 
-nav ul{
+/*nav ul{
     list-style: none;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@ nav ul{
     margin-right: 10px;
     
 }
-
+*/
 #menu>li>a{
     text-align: right;
     text-decoration: none;
