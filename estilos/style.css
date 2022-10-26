@@ -22,7 +22,7 @@ html,body{
 }
 
 header{
-    background-color:#EEF0F2 ;
+    background-color:#bdbdbd;
 }
 
 .nav-bar{
@@ -54,21 +54,12 @@ nav ul{
 }
 
 
-#menu{
-    text-align: right;
-}
-
-#menu>li{
-    margin-right: 10px;
-    
-}
-#menu>li>a{
+.nav-list ul li a{
     text-decoration: none;
     color: black;
 }
-
-#menu>li>a:hover{
-    color: #8C3C2A;
+.nav-list ul li a:hover{
+    color: white;
 }
 
 .mobile-menu-icon{
@@ -123,15 +114,17 @@ nav ul{
 
 #container{
     box-shadow: inset 1px 1px 3px .2px rgba(0, 0, 0, 0.658);;
-    width: 98vw;
+    width: 99vw;
     height: 100vh;
-    background-color: aqua;
+    background-color:rgba(0, 0, 0, 0.658);
+    background-image: url(../imagens/pexels-jessica-lewis-creative-606545.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 section{
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 #quem-somos{
